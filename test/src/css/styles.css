@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li{
+    list-style:  none;
+}
+
+
+/* header styles start here */
+.header-wrapper{
+    background-color: #434344;
+    opacity: 0.9;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #d8d7d8;
+    font-size: 13px;
+}
+
+nav ul li img{
+    width: 18px;
+}
+
+/* header styles end here */
+
+/* main styles starts here */
+
+/* ad style start */
+
+.ad-internal-wrapper{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ad style end */
+
+/* highlight wrappers common styles */
+
+.highlight-wrapper{
+    height: 580px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.blackBK{
+    background-color: black;
+    color: white;
+}
+
+.fafafa{
+    background-color: #fafafa;
+}
+
+/* end of highlight wrappers common styles */
+
+.one{
+    background-image: url("../images/downloads/hero_iphone14pro_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.two{
+    background-image: url("../images/downloads/hero_iphone14_yellow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.three{
+    background-image: url("../images/downloads/hero_apple_watch_series_8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.three .logo-wrapper img{
+    max-width: 35%;
+}
+
+.four .left{
+    background-image: url("../images/downloads/iphone_tradein_promo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.four .right{
+    background-image: url("../images/downloads/promo_wwdc23.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.right .logo-wrapper img{
+    max-width: 70%;
+}
+
+.five .left{
+    background-image: url("../images/downloads/promo_ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.five .right{
+    background-image: url("../images/downloads/promo_mbp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.six .left{
+    background-image: url("../images/downloads/promo_homepod.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.six .right{
+    background-image: url("../images/downloads/tile__cauwwcyyn9hy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+/* main styles ends here */
+
+/* fonts start */
+
+.title-wrapper p{
+    padding-bottom: 5px;
+    font-size: 36px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+}
+
+.description-wrapper p{
+    padding-bottom: 5px;
+    font-size:19px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+.links-wrapper ul{
+    display: flex;
+    justify-content: center;
+}
+
+.links-wrapper ul li{
+    margin-right: 7%;
+    color: #268eef;
+    font-size: 18px;
+    line-height: 1.381;
+}
+
+.links-wrapper ul li:hover{
+    text-decoration: underline;
+}
+
+.links-wrapper ul li:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 15px;
+}
+
+/* fonts end */
+
+/* footer start */
+
+.footer-wrapper{
+    background-color: #f5f5f7;
+}
+
+.footer-paragraph-wrapper p{
+    font-size: 0.75em;
+    color: #9c9ca0;
+    line-height: 15px;
+}
+
+.listHead{
+    color: #4d4d4d;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.footer-links-wrapper ul li a{
+    color: #737374;
+    font-size: 0.7rem;
+    font-style: normal;text-decoration: none;
+}
+
+.footer-links-wrapper ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-issues-first{
+    padding-bottom: 10px;
+    font-size: 0.7em;
+    color: #9c9ca0;
+}
+
+.footer-issues-second{
+    padding: 10px 0 25px 0;
+    font-size: 0.7em;
+    color: #9c9ca0;
+}
+
+.footer-issues-second-links-wrapper ul{
+    display: flex;
+}
+
+.footer-us-wrapper{
+    display: flex;
+    justify-content: center;
+}
+/* footer end */
+
+/* videos */
+.single-video img{
+    max-width: 100%;
+}
+
+.single-image img{
+    max-width: 80%;
+}
